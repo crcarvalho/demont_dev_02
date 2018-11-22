@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/imgDeposito"
+        android:baselineAlignBottom="true"
+        android:scaleType="center"
+        android:minHeight="350dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nome"
+        android:text="nome"
+        android:layout_below="@+id/imgDeposito"
+        android:textSize="22dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/endereco"
+        android:layout_below="@+id/nome"
+        android:text="rua xpto"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/telefone"
+        android:text="11 4455-6677"
+        android:layout_below="@+id/endereco"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/telefone"
+        android:text="www.site.com.br"
+        android:id="@+id/website"/>
+</RelativeLayout>

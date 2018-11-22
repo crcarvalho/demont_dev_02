@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:id="@+id/imgProduto"
+        android:baselineAlignBottom="true"
+        android:scaleType="centerInside"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="0dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNome"
+        android:text="Pedra para construção"
+        android:layout_below="@+id/imgProduto"
+        android:textSize="22dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDeposito"
+        android:layout_below="@+id/txtNome"
+        android:text="Depósito Campesina"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDeposito"
+        android:id="@+id/txtPadrao1"
+        android:text="@string/txt_padrao_desconto1"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vlDesconto"
+        android:layout_toRightOf="@+id/txtPadrao1"
+        android:layout_below="@+id/txtDeposito"
+        android:text="51%"
+        android:paddingLeft="4dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDeposito"
+        android:id="@+id/txtPadrao2"
+        android:layout_toRightOf="@+id/vlDesconto"
+        android:text="@string/txt_padrao_desconto2"
+        android:paddingLeft="4dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 70"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="14dp"
+        android:id="@+id/vlAnterior"
+        android:layout_alignBottom="@+id/txtNome"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 49"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20dp"
+        android:id="@+id/vlUnitario"
+        android:layout_below="@+id/vlAnterior"
+        android:layout_alignRight="@+id/vlAnterior"
+        android:layout_alignEnd="@+id/vlAnterior" />
+
+
+
+</RelativeLayout>

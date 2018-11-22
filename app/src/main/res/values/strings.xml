@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Demont Project DEV2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="acao_pesquisar">Pesquisar</string>
+    <string name="acao_novo">Novo</string>
+    <string name="acao_info">Info</string>
+    <string name="hint_busca">Procurar por Produto</string>
+    <string name="sobre_titulo">Dominando o Android</string>
+    <string name="sobre_mensagem">Desenvolvido por Carlos Carvalho
+        Idealizado por Raphael Nunes</string>
+    <string name="sobre_mensagem2"></string>
+    <string name="sobre_botao_site">Site</string>
+    <string name="nome">Nome</string>
+    <string name="cnpj">CNPJ</string>
+    <string name="classificacao">Classificação</string>
+    <string name="endereco">Endereço</string>
+    <string name="title_activity_hotel_detalhe"></string>
+    <string name="acao_delete">Excluir</string>
+    <string name="acao_editar">Editar</string>
+    <plurals name="numero_selecionados">
+        <item quantity="one">1 selecionado</item>
+        <item quantity="other">%d selecionados</item>
+    </plurals>
+    <string name="mensagem_excluir">%d itens excluídos.</string>
+    <string name="desfazer">Desfazer</string>
+    <string name="esqueceu_senha">Esqueceu sua senha? Clique aqui</string>
+    <string name="facebook_app_id">156579514788280</string>
+    <!-- BUTTONS -->
+    <string name="bt_login">LOGIN</string>
+    <string name="fb_bt_login">Logar com Facebook</string>
+    <string name="fb_bt_logout">Deslogar do Facebook</string>
+    <string-array name="secoes">
+        <item>DESTAQUES</item>
+        <item>DEPOSITOS</item>
+        <item>LISTAS</item>
+        <item>OBRAS</item>
+    </string-array>
+    <array name="cores_bg">
+        <item>#FFCDD2</item>
+        <item>#B2DFDB</item>
+        <item>#BBDEFB</item>
+    </array>
+    <array name="cores_texto">
+        <item>#F44336</item>
+        <item>#4CAF50</item>
+        <item>#03A9F4</item>
+    </array>
+    <string name="menu_ofertas">OFERTAS</string>
+    <string name="menu_destaque">DESTAQUES</string>
+    <string name="menu_minhas_compras">MINHAS COMPRAS</string>
+    <string name="menu_minha_localizacao">MINHA LOCALIZAÇÃO</string>
+    <string name="menu_cadastro">CADASTRO</string>
+    <string name="menu_configuracoes">CONFIGURAÇÕES</string>
+    <string name="menu_ajuda">AJUDA</string>
+    <string name="menu_sobre_demont">SOBRE DEMONT</string>
+    <string name="txt_padrao_desconto1">Você ecônomiza </string>
+    <string name="txt_padrao_desconto2"> no Demont.</string>
+    <array name="produtos">
+        <item>@drawable/pedra</item>
+        <item>@drawable/bloco</item>
+        <item>@drawable/tijolo</item>
+        <item>@drawable/vergalhao_gg50</item>
+    </array>
+    <array name="depositos">
+        <item>@drawable/cec</item>
+        <item>@drawable/telhanorte</item>
+        <item>@drawable/depo1</item>
+        <item>@drawable/depo2</item>
+    </array>
+
+    <string name="texto_cabecalho">Produtos</string>
+    <string name="destaque">DESTAQUES</string>
+    <string name="depositos">DEPOSITOS</string>
+    <string name="listas">LISTAS</string>
+    <string name="settings">Configurações</string>
+</resources>
